@@ -21,7 +21,7 @@ body, html {
     border-radius: 4px;
 }
 
-#go-button {
+#go-button, #ai-button {
     padding: 8px 12px;
     margin-left: 10px;
     border: 1px solid #ccc;
@@ -30,7 +30,7 @@ body, html {
     cursor: pointer;
 }
 
-#go-button:hover {
+#go-button:hover, #ai-button:hover {
     background-color: #d0d0d0;
 }
 
