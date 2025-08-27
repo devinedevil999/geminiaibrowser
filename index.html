@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puter Browser</title>
+    <title>Puter Scraper</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://puter.com/sdk.js"></script>
 </head>
 <body>
-    <div id="nav-bar">
-        <input type="text" id="url-input" placeholder="https://example.com">
-        <button id="go-button">Go</button>
-        <button id="ai-button">Ask AI</button>
+    <div id="main-content">
+        <h1>Shopping Cart Analyzer</h1>
+        <p>Enter the URL of a shopping cart page to scrape and summarize its contents.</p>
+        <div id="input-bar">
+            <input type="text" id="url-input" placeholder="https://store.example.com/cart">
+            <button id="scrape-button">Scrape & Analyze</button>
+        </div>
+        <div id="results-container">
+            <h2>Analysis</h2>
+            <pre id="summary-output">The AI summary will appear here...</pre>
+        </div>
     </div>
-    <iframe id="browser-frame" src="about:blank"></iframe>
     <script src="app.js"></script>
 </body>
 </html>
